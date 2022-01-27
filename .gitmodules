@@ -1,0 +1,3 @@
+[submodule "vbox-usb"]
+	path = gist\\vbox-usb
+	url = https://gist.github.com/ba7e80612889ad8368e227a5866a6164.git
