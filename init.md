@@ -11,12 +11,15 @@
 1.  Make branch on github
 2.  CD to local directory
 3.  `git init`
-4.  Copy over settings from established `.git\config`
-5.  Update Readme and License
-6.  `git remote add origin gh.brianddk:brianddk/trezor-sd.git` (funny ssh config)
-7.  `git fetch --all`
-8.  `git checkout --track origin/main`
-9.  `git add -A .`
-10. `git commit -m "Initial commit from host"`
-11. `git push`
+4.  Update Readme and License
+5.  `git remote add origin gh.brianddk:brianddk/trezor-sd.git` (funny ssh config)
+6.  `git fetch --all`
+7.  `git checkout --track origin/main`
+8.  `git add -A .`
+9.  Create a gist
+10. `git submodule add --name "vbox-usb" https://gist.github.com/ba7e80612889ad8368e227a5866a6164.git "gist/vbox-usb"`
+11. Copy over settings from established `.git\config` to `.git\config` (funnify gist url)
+12. Copy over settings to `.git\modules\vbox-usb\config` (funnify gist url)
+13. `git commit -m "Initial commit from host"`
+14. `git push`
 
