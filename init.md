@@ -15,11 +15,10 @@
 5.  `git remote add origin gh.brianddk:brianddk/trezor-sd.git` (funny ssh config)
 6.  `git fetch --all`
 7.  `git checkout --track origin/main`
-8.  `git add -A .`
-9.  Create a gist
-10. `git submodule add --name "vbox-usb" https://gist.github.com/ba7e80612889ad8368e227a5866a6164.git "gist/vbox-usb"`
-11. Copy over settings from established `.git\config` to `.git\config` (funnify gist url)
-12. Copy over settings to `.git\modules\vbox-usb\config` (funnify gist url)
+8.  Create a gist
+9.  `git submodule add --name "vbox-usb" https://gist.github.com/ba7e80612889ad8368e227a5866a6164.git "gist/vbox-usb"`
+10. Copy over settings from established `.git\config` to `.git\config` (funnify gist url)
+11. Copy over settings to `.git\modules\vbox-usb\config` (funnify gist url)
+12. `git add -A .`
 13. `git commit -m "Initial commit from host"`
 14. `git push`
-
