@@ -8,3 +8,5 @@
 
 # trezor-sd
 Just some thoughts on Trezor-SD
+
+https://www.reddit.com/r/TREZOR/comments/rqxuh0/universal_sd_disk_with_trezort_sdprotect_tails/
